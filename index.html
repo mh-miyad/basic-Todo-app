@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Add To Cart Your Iphone</title>
+  </head>
+  <body>
+    <header
+      class="my-5 container mx-auto rounded-lg text-center text-4xl font-semibold bg-indigo-600"
+    >
+      <h2 class="text-5xl uppercase p-4 text-white">
+        ToDo List Make By <span class="text-yellow-400">JavaScript</span>
+      </h2>
+    </header>
+
+    <main>
+      <section class="my-10 container mx-auto">
+        <div class="container mx-auto flex justify-between">
+          <div class="mx-10 time-section">
+            <span id="day" class="text-2xl font-semibold text-fuchsia-400">
+              Day
+            </span>
+            <span id="date" class="text-xl ml-5 text-orange-600 font-semibold">
+              Today Date
+            </span>
+            <p
+              id="year"
+              class="text-3xl text-indigo-500 font-bold text-opacity-60"
+            >
+              Year
+            </p>
+          </div>
+          <div>
+            <input
+              type="text"
+              class="form-input w-96 py-10 rounded-lg shadow-2xl shadow-indigo-300"
+              placeholder=" Stay organized with your tasks "
+              name=""
+              id="list-text-item"
+            />
+          </div>
+          <div class="add-list-btn">
+            <button
+              id="add-list-btn"
+              class="bg-indigo-500 hover:bg-indigo-600 shadow-2xl shadow-indigo-900/60 px-7 py-3 rounded-xl text-white font-bold text-xl"
+            >
+              <span> <i class="bi bi-plus text-2xl text-white"></i></span> Add
+              List
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="todo-add-item-section my-10 container mx-auto">
+        <div class="todo-list-section">
+          <div>
+            <ul id="todo-list"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Javascript add Here  -->
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>

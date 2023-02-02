@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    background-color: #F5F5F5;
+}
+
+.todo-list-section{
+    display: flex;
+    justify-content: center;
+}
+
+.line-th{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.list-div{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+/* .list-div li{
+    flex: 1;
+} */
+
+
+
+.bi-check-lg,.bi-trash{
+    font-size: 1.5rem;
+    color: rgb(107, 85, 233);
+    padding:0 0px 0px 50px;
+
+    
+}
+
+
+.bi-check-lg:hover{
+    scale: 1.3;
+}
+.bi-trash:hover{
+    scale: 1.3;
+}
+
+.fade-away {
+    transform: translateX(10rem);
+    opacity: 0;
+}
